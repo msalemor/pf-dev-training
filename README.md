@@ -36,6 +36,17 @@ In your local development environment, the connections are persisted in your loc
 
 In Azure AI, connections can be configured to be shared across the entire workspace. Secrets associated with connections are securely persisted in the corresponding Azure Key Vault, adhering to robust security and compliance standards.
 
+#### Connection operations
+
+- Creating a connection
+```bash
+pf connection create --file ./my_chatbot/openai.yaml --set api_key=<your_api_key> --name open_ai_connection
+```
+
+Reference:
+- https://microsoft.github.io/promptflow/reference/pf-command-reference.html#pf-connection
+
+
 ### Creating a simple Chat flow
 
 ```bash
