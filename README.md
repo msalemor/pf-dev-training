@@ -9,9 +9,10 @@ Promptflow developer training
 ## Setup
 
 - Recommended: Python 3.9
-- Packages:
+- Required packages:
   - promptflow
   - promptflow-tools
+- Probably useful:
   - keyring.alt
   - bs4
 
