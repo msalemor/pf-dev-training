@@ -72,7 +72,7 @@ pf flow init --flow <flow-name> --type chat
 - For full power, you need to add Python blocks.
 - Python blocks do not have to rely on the Promptflow infrastructure. For example, you can create a langchain or Semantic Kernel Python code that calls their own connection settings and configuration.
 
-## Promptflow is suitable for
+## Who is Promptflow suitable for?
 
 - Teams that have experience with prompt engineering, LLM models, tokens, token limits, Python development, and want to leverage their skills.
 - Teams that prefer to create flows in code using a configuration file, from Python code, authoring templates, or by making adjustments from a visual designer.
