@@ -74,7 +74,7 @@ pf flow init --flow <flow-name> --type chat
 
 ## Promptflow is suitable for
 
-- Teams that have experience with prompt engineering, LLM models, tokens, token limits, and Python development, and want to leverage their skills.
+- Teams that have experience with prompt engineering, LLM models, tokens, token limits, Python development, and want to leverage their skills.
 - Teams that prefer to create flows in code using a configuration file, from Python code, authoring templates, or by making adjustments from a visual designer.
 
 ## Reference
