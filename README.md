@@ -66,11 +66,11 @@ pf flow init --flow <flow-name> --type chat
 
 ### Python Blocks
 
-## Comments
+## Observations
 
-- You can achieve fantastic results with templates.
-- For full power, you need to add Python modules.
-- Python options do not have to rely on the Promptflow infrastructure. For example, you can create a langchain or Semantic Kernel Python code that calls its own connection settings and configuration.
+- You can achieve fantastic results LLM prompts (templates).
+- For full power, you need to add Python blocks.
+- Python blocks do not have to rely on the Promptflow infrastructure. For example, you can create a langchain or Semantic Kernel Python code that calls their own connection settings and configuration.
 
 ## Promptflow is suitable for
 
