@@ -6,16 +6,12 @@ Promptflow developer training
 
 "Prompt flow is a suite of development tools designed to streamline the end-to-end development cycle of LLM-based AI applications, from ideation, prototyping, testing, evaluation to production deployment and monitoring. It makes prompt engineering much easier and enables you to build LLM apps with production quality."
 
-
 ## Setup
 
 - Recommended: Python 3.9
 - Required packages:
-  - promptflow
-  - promptflow-tools
-- Probably useful:
-  - keyring.alt
-  - bs4
+  - promptflow >=1.1.0
+  - promptflow-tools>=1.0.0
 
 ## Samples Got-Yas
 
@@ -31,9 +27,7 @@ pip install keyrings.alt
 
 ### Connections
 
-Connections are for storing information about how to access external services like LLMs: endpoint, api keys etc.
-
-In your local development environment, the connections are persisted in your local machine with keys encrypted.
+Connections store the connection secrets. In your local development environment, the connections are persisted to the secret stores (Windows/Mac OS). In Linux, you many need to run `pip install keyrings.alt` to install a secret store. 
 
 In Azure AI, connections can be configured to be shared across the entire workspace. Secrets associated with connections are securely persisted in the corresponding Azure Key Vault, adhering to robust security and compliance standards.
 
@@ -66,15 +60,22 @@ pf flow init --flow <flow-name> --type chat
 
 **Note:** As a general guideline, if you are building a chatbot that needs to maintain conversation history, try chat flow. In most other cases, standard flow should serve your needs.
 
-### Jinja2 templates
+### Execution
 
-### Python
+### LLM Blocks - Jinja2 templates
+
+### Python Blocks
 
 ## Comments
 
 - You can achieve fantastic results with templates.
 - For full power, you need to add Python modules.
 - Python options do not have to rely on the Promptflow infrastructure. For example, you can create a langchain or Semantic Kernel Python code that calls its own connection settings and configuration.
+
+## Promptflow is suitable for
+
+- Teams that have experience with prompt engineering, LLM models, tokens, token limits, and Python development, and want to leverage their skills.
+- Teams that prefer to create flows in code using a configuration file, Python code, or code authoring templates, and are open to making adjustments from a visual designer.
 
 ## Reference
 
